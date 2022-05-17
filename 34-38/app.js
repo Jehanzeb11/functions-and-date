@@ -125,6 +125,18 @@
 // question 6
 
 
+// function factorial(){
+//     num = +prompt("Enter number to find factorial")
+//     document.write("factorial number "+num+"<br>")
+//     fac = 1
+//     for(num;num>1;num--){
+//         fac = fac*num
+//     }
+//     return fac
+// }
+// let a = factorial()
+// document.write("factorial number value "+a)
+
 
 
 
@@ -282,19 +294,19 @@
 
 // question 11
 
-function wordUp(str) {
-    var arr = str.split(" ");
-    var result = arr.map(
-        function (val) {
-            return val.replace(val.charAt(0), val.charAt(0).toUpperCase())
-        }
-    )
-    return result;
-}
+// function wordUp(str) {
+//     var arr = str.split(" ");
+//     var result = arr.map(
+//         function (val) {
+//             return val.replace(val.charAt(0), val.charAt(0).toUpperCase())
+//         }
+//     )
+//     return result;
+// }
 
-var string = wordUp("the quick brown fox").join(" ");
-document.write("Example Output:" + " " + "the quick brown fox" + "<br>")
-document.write("Expected Output:" + " " + string + "<br><br><br>")
+// var string = wordUp("the quick brown fox").join(" ");
+// document.write("Example Output:" + " " + "the quick brown fox" + "<br>")
+// document.write("Expected Output:" + " " + string + "<br><br><br>")
 
 
 
@@ -366,7 +378,20 @@ document.write("Expected Output:" + " " + string + "<br><br><br>")
 
 // question 13
 
-
+// function char_count(str, letter){
+//  let letter_Count = 0;
+//  for (let i = 0; i < str.length; i++) 
+//  {
+//     if (str.charAt(i) == letter) 
+//       {
+//       letter_Count += 1;
+//       }
+//   }
+//   return letter_Count;
+// }
+// let l = char_count('JSResourceS.com', 'o');
+// document.write("Example Arguments: "+'JSResourceS.com'+" "+ ', o'+"<br>")
+// document.write("Occurence count: "+l)
 
 
 
